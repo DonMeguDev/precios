@@ -6,11 +6,12 @@ body,html{
     margin:0;
     padding:0;
     background:#29b6f6;
+    background-attachment: fixed;
   }
   .bubbles{
     position:absolute;
     width:100%;
-    height: 100%;
+    height: 1400px;
     z-index:0;
     overflow:hidden;
     top:0;
@@ -104,7 +105,7 @@ body,html{
       transform:translate(100px);
     }
     100%{
-      bottom:1080px;
+      bottom:1400px;
       transform:translateX(-200px);
     }
   }
